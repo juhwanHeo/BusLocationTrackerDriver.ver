@@ -21,7 +21,7 @@ public class DB_Manager {
     private String str_longitude;
     private ArrayList<String> results;
 
-    private final String riding_information_UrlPath = "http://222.120.142.178/user_riding/riding_user_information.php";
+    private final String riding_information_UrlPath = "http://ip 주소/user_riding/riding_user_information.php";
     public ArrayList<String> riding_user_information(String str_user_id, String str_datetime,
                                                      String str_latitude, String str_longitude){
         urlPath = riding_information_UrlPath;
