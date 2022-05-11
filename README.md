@@ -7,5 +7,5 @@
 
 *****
 
-## Change Log [(링크)]( https://github.com/juhwanHeo/BusLocationTrackerDriver.ver/blob/main/changeLog/ )
+## Change Log [(링크)]( https://github.com/juhwanHeo/BusLocationTrackerDriver.ver/tree/master/changeLog )
 
