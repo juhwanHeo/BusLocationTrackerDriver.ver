@@ -1,15 +1,11 @@
-# BusLocationTracker
+# BusLocationTracker (Driver version)
 *****
 ## 아파트 셔틀버스 위치 추적 앱(Bus Location Tracking App)
-    아파트 셔틀버스의 위치를 파악하고 셔틀버스 이용을 편리하게 만들어주기 위함.
-    버스 운전 기사님의 휴대폰과 버스 내부에 별도의 장치를 통해 기사님의 휴대폰과 버스에 설치된 장치가 연동하여
-    버스가 운행중임을 알리고 위치를 앱에서 실시간으로 표시함
+    아파트 셔틀버스의 위치를 파악하여 셔틀버스 이용을 편리하게 만들어주기 위함.
+    버스에 안드로이드 스마트폰을 설치하여, 서버와 Restful 통신을 통해  
+    버스가 운행중임을 알리고 위치를 웹에서 출력한다.
+
 *****
-# TODO(할 일)
-- [x] GPS를 이용하여 현재 위치를 지도에 마커로 표시하기
-- [ ] 실시간으로 위치 표시하기
-- [ ] 이동 경로 표시
-- [ ] 특정 좌표에 대한 도착 예정 시간 구하기
-*****
-# 하드웨어(Hardware)
-    아두이노를 활용하여 블루투스 통신으로 탑승 여부를 구분할 계획
+
+## Change Log [(링크)]( https://github.com/juhwanHeo/BusLocationTrackerDriver.ver/blob/main/changeLog/ )
+

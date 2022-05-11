@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/clickLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위도 : lat\n경도 : lon"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="위치 탐색"/>
+    <TextView
+        android:id="@+id/stationDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마석역까지의 거리: "
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/allDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 거리 :"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentValue"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:text="changeValue : 0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeValue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/currentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위도 : lat\n경도 : lon"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/curDistance"
+            android:text="마석역까지 거리: "
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/move_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="실시간 위치 탐색"/>
+
+</LinearLayout>
